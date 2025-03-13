@@ -77,7 +77,7 @@ public class UtilsTest {
     @ParameterizedTest
     @ValueSource(ints = {1, 2, 3})
     void testWithValueSource(int argument) {
-            assertTrue(argument > 0 && argument < 4);
+        assertTrue(argument > 0 && argument < 4);
     }
 
 }
